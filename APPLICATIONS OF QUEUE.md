@@ -5,11 +5,7 @@
 
 ### AIM  
 To write a Python program to implement CPU Process Scheduling using a queue.
-
----
-
 ### ALGORITHM  
-
 1. Start the program.  
 2. Define the function `CalculateWaitingTime(at, bt, N)`.  
 3. Initialize a list `wt` of size `N` with all values set to 0.  
@@ -26,11 +22,8 @@ To write a Python program to implement CPU Process Scheduling using a queue.
 12. Get burst times as input from the user for 5 processes.  
 13. Call `CalculateWaitingTime()` with `at`, `bt`, and `N`.  
 14. End the program.
-
 ---
-
 ### PROGRAM  
-
 ```
 def CalculateWaitingTime(at, bt, N):
 	wt = [0]*N;
@@ -54,7 +47,6 @@ for i in range(5):
 CalculateWaitingTime(at, bt, N);
 
 ```
-
 ### OUTPUT
 
 <img width="1078" height="480" alt="441153929-d9fd7f66-3624-428d-84aa-671f229b4537" src="https://github.com/user-attachments/assets/16b1a5d0-2378-4958-b10e-47951aaa29ab" />
